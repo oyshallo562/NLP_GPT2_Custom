@@ -1,8 +1,8 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # 모델과 토크나이저 불러오기
-model = GPT2LMHeadModel.from_pretrained("path_to_your_model")
-tokenizer = GPT2Tokenizer.from_pretrained("path_to_your_model")
+model = GPT2LMHeadModel.from_pretrained("./gpt2-finetuned")
+tokenizer = GPT2Tokenizer.from_pretrained("./gpt2-finetuned")
 
 # 생성할 텍스트의 시작 부분
 prompt = "이렇게 시작하는 메시지에 대해:"

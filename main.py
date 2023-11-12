@@ -38,5 +38,8 @@ trainer = Trainer(
 # 모델 훈련
 trainer.train()
 
-# 훈련이 완료된 모델 저장
+# 모델 저장
 model.save_pretrained("./gpt2-finetuned")
+
+# 토크나이저 저장
+tokenizer.save_pretrained("./gpt2-finetuned")
