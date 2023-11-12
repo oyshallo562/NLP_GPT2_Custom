@@ -1,0 +1,6 @@
+./gpt2-finetuned
+./inbox
+./venv
+cached_lm_GPT2Tokenizer_128_ouyuseong_messages_cl.txt
+ouyuseong_messages.txt
+ouyuseong_messages_cl.txt
